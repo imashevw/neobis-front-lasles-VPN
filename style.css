@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&family=Roboto:wght@400;900&family=Rubik&display=swap');
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    max-width: 1200px;
+    max-height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #FFFFFF;
+}
+.Nav {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    max-width: 100%;
+  }
+  
+  .Nav .nav-link {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Nav .nav-link li{
+    list-style-type: none;
+  }
+  .Nav a {
+    font-weight: 400;
+    color: #4F5665;
+    transition: 0.3s;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 25px;
+  }
+.Nav .SingIn {
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.Nav .SingUp {
+    width: 120px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 7px 10px;
+    margin-left: 20px;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+header .header_info {
+  width: 555px;
+}
+header .header_info h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+header .header_info .header_button {
+  color: white;
+  background-color: red;
+  padding: 10px 50px;
+  border: 1px;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  box-shadow: 1px 12px 20px 2px rgb(242, 163, 163);
+  margin-top: 60px;
+}
+.information_vpn {
+  display: flex;
+  max-width: 1140px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color:           #FFFFFF;
+}
+.information_vpn .column {
+  width: 30%;
+  display: flex;
+  padding: 20px;
+  border: none;
+}
