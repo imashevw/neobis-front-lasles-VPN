@@ -11,7 +11,7 @@
     --main-color: #f53855;
   }
   .container {
-    width: 100vw;
+    width: 90vw;
     margin: var(--margin-block);
     display: flex;
     flex-direction: column;
@@ -363,7 +363,7 @@
     margin-top: 20px;
   }
   .main-coment__container {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -511,8 +511,8 @@
     margin-top: 180px;
   }
   .footer > div {
-    /* width: 100%; */
-    width: var(--container-width);
+    width: 100%;
+    /* width: var(--container-width); */
     margin: 0 auto;
     margin-top: 250px;
     display: flex;
